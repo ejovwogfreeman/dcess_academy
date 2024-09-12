@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* p { */
+/* padding: 20px;
+    margin: 20px;
+    border: 20px solid red; */
+
+/* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+
+/* border: 2px solid black; */
+
+/* single value */
+/* margin: 100px; */
+
+/* two values */
+/* margin: 200px 30px; */
+
+/* three values */
+/* margin: 200px 100px 400px; */
+
+/* four values */
+/* margin: 20px 300px 40px 50px; */
+
+/* padding */
+/* one value */
+/* padding: 100px; */
+
+/* two values */
+/* padding: 30px 100px; */
+
+/* three values */
+/* padding: 10px 30px 50px; */
+
+/* four values */
+/* padding: 20px 50px 90px 70px; */
+
+/* border-right: 10px solid red; */
+
+/* margin: 10px;
+    padding: 30px; */
+/* } */
+
+/* .circle {
+    border: 50px solid black;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background: red;
+  } */
+
+/* css position and layout */

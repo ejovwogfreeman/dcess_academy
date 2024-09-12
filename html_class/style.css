@@ -1,0 +1,19 @@
+div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+/* classes uses dot (.) */
+.box {
+  background-color: blue;
+  color: red;
+}
+
+.first {
+  line-height: 3rem;
+}
+
+#first {
+  color: green;
+}
