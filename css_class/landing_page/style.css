@@ -1,0 +1,288 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 10px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efefef;
+}
+
+nav h1 {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  margin-left: 25px;
+}
+nav ul .register {
+  background-color: #adf1ff;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+nav ul .login {
+  background-color: #21a3bf;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+header {
+  padding: 10px 5% 80px;
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+}
+
+header h1 {
+  font-size: 45px;
+}
+
+.learn {
+  background-color: #21a3bf;
+  color: white;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-section {
+  display: flex;
+  align-items: center;
+  padding: 70px 5%;
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.video-section div {
+  flex: 1;
+  font-size: 25px;
+}
+.video-section div p {
+  line-height: 2rem;
+}
+.video-section div a {
+  display: block;
+  margin: 20px 0px;
+  color: #21a3bf;
+  text-decoration: none;
+}
+
+.video-section iframe {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.styled {
+  background-color: #adf1ff;
+  color: #4f4f4f;
+}
+
+.course {
+  padding: 70px 5%;
+  text-align: center;
+}
+
+.course h1 {
+  margin-bottom: 30px;
+}
+
+.styledh1 {
+  background-color: #21a3bf;
+  color: white;
+}
+
+.course .items {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.course .items div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+}
+
+.course .items div img {
+  display: block;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.course .items div a {
+  color: #21a3bf;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.testimonials {
+  padding: 7px 5%;
+  text-align: center;
+}
+
+.testimonials h1 {
+  margin-bottom: 30px;
+}
+
+.testimonials .cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+}
+
+.testimonials .cards .card {
+  border: 1px solid #21a3bf;
+  border-radius: 3px;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+}
+
+.testimonials .cards .card h2 {
+  color: #21a3bf;
+}
+
+.testimonials .cards .card p {
+  margin: 20px 0px;
+}
+
+.testimonials svg {
+  color: gold;
+}
+
+.testimonials .profile {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials .profile img {
+  width: 50px;
+  height: 50px;
+}
+
+.testimonials .profile .user {
+  margin-left: 10px;
+}
+
+.top-right {
+  background-color: #21a3bf;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 3px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
+
+footer .links {
+  margin-bottom: 10px;
+}
+
+footer .links a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #21a3bf;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    position: relative;
+    padding: 10px;
+  }
+
+  nav .right {
+    position: absolute;
+    background-color: #efefef;
+    width: 100%;
+    left: 0px;
+    top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  nav ul a {
+    display: block;
+    margin-left: 0px;
+    padding: 10px;
+  }
+
+  nav ul .register,
+  nav ul .login {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header {
+    display: block;
+    padding: 100px 5%;
+    text-align: center;
+  }
+
+  .video-section {
+    display: block;
+  }
+
+  .video-section iframe {
+    margin-left: 0px;
+  }
+
+  .course .items {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .testimonials .cards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimonials .cards {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  nav .right {
+    display: block !important;
+  }
+}

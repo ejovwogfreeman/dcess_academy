@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 221, 221);
+}
+
+h1 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  padding: 20px 100px;
+}
+
+p {
+  padding: 20px;
+  text-align: justify;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+}

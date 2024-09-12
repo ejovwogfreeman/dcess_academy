@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: white;
+}
+
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bg-image.jpg");
+  height: 630px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav .bi {
+  font-size: 25px;
+}
+
+.brand-section .bi {
+  width: 25px;
+  height: 20px;
+}
+
+input {
+  outline: none;
+}
+
+.responsive-width {
+  width: 20%;
+}
+.responsive-width-team {
+  width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-width {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .responsive-width-team {
+    width: 100%;
+    text-align: center;
+  }
+}

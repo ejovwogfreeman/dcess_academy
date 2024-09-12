@@ -1,0 +1,146 @@
+/* css syntax */
+
+/* 
+selector {
+    property: value
+} 
+*/
+
+/* element selector */
+
+/* h1 {
+  color: red;
+  font-size: 20px;
+  background-color: blue;
+} */
+
+/* p {
+  text-align: center;
+  color: green;
+  background-color: brown;
+}
+
+/* class selector */
+
+/* .box {
+  background-color: red;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.slant-text {
+  font-style: italic;
+} */
+
+/* id selectors */
+/* #box {
+  background-color: blue;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+} */
+
+/* pseudo selectors */
+/* pseudo classes */
+/* #box:hover {
+  background: green;
+} */
+
+/* a {
+  color: tomato;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  background: red;
+}
+
+a:visited {
+  color: aqua;
+}  */
+
+/* pseudo elements */
+/* div,
+a {
+  color: red;
+} */
+
+/* h1::first-letter {
+  color: green;
+}
+
+p::first-line {
+  background-color: yellow;
+} */
+
+/* input[type="number"] {
+  border: 1px solid red;
+} */
+
+/* css properties and values */
+
+body {
+  background-color: rgb(0, 0, 255, 0.5);
+}
+
+p {
+  /* color: blueviolet; */
+  /* background properties */
+  /* this can take image or color or something else */
+  /* background: red; */
+  /* background-color: blue; */
+
+  /* font properties */
+  /* font: 20px italic; */
+  /* font-size: 90px; */
+  /* font-family: sans-serif; */
+  /* font-style: italic;
+  font-weight: bold; */
+
+  /* colors */
+  /* regular color names */
+  color: red;
+  /* html5 special color names */
+  color: aquamarine;
+  /* hexadecimal color values */
+  /* contains #, 0-9, a-f */
+  /* #rrggbb or #rgb */
+  color: #abc123;
+  /* black */
+  color: #000000;
+  color: #000;
+  /* white */
+  color: #ffffff;
+  color: #fff;
+  /* red */
+  color: #ff0000;
+  color: #f00;
+  /* green */
+  color: #00ff00;
+  color: #0f0;
+  /* blue */
+  color: #0000ff;
+  color: #00f;
+  /* rgb color values */
+  /* rgb(red, green, blue) */
+  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  color: rgb(0, 255, 0);
+  /* color: rgb(0, 0, 255); */
+  background-color: rgba(0, 0, 255, 0.8);
+  /* rgba color values */
+  /* rgba(red, green, blue, apla(opacity)) */
+  /* background-color: rgb(0, 0, 255, 0.5); */
+}
+
+p:hover {
+  background-color: rgb(0, 0, 255, 0.5);
+}
+
+/* next class */
+/* css box model */
