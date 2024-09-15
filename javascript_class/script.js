@@ -292,6 +292,9 @@ document.write("Hello world");
 // 1) arithmetic (+, -, *, /, %, **)
 // 2) assignment (=, +=, -=, *=, /=, %=)
 // 3) comparism operator (==, !=, ===, !==, >, >=, <, <= )
+// 4) Logical Operators (&&, ||, !)
+// 5) Ternary Operators
+// 6) Type Operators
 
 // let x = 16;
 
@@ -299,11 +302,52 @@ document.write("Hello world");
 
 // console.log(x);
 
-console.log(3 == "3"); //true
-console.log(3 != "3"); //false
-console.log(3 == 3); //true
-console.log(3 != 3); //false
-console.log(3 === "3"); //false
-console.log(3 !== "3"); //true
-console.log(3 === 3); //true
-console.log(3 !== 3); //false
+// console.log(3 == "3"); //true
+// console.log(3 != "3"); //false
+// console.log(3 == 3); //true
+// console.log(3 != 3); //false
+// console.log(3 === "3"); //false
+// console.log(3 !== "3"); //true
+// console.log(3 === 3); //true
+// console.log(3 !== 3); //false
+
+// Logical And:
+// symbol => &&
+// returns true if all are true
+// console.log(3 == 3 && 4 === "4");
+
+// Logical Or:
+// symbol => ||
+// returns true if one of the statement are true
+// console.log(3 == 3 || 4 === "4" || 5 == 6);
+
+// Logical Not:
+// symbol => !
+// its used to negate a statement
+// console.log(!(3 == 3 || 4 === "4" || 5 == 6));
+
+// ternary operator
+// symbol ? :
+// shorthand method of if and else statement
+
+// let color = "red";
+// if (color === "red") {
+//   console.log("your color is red");
+// } else {
+//   console.log("your color is not red");
+// }
+
+// ternary form of the above if/else statement
+// console.log(color === "red" ? "your color is red" : "your color is not red");
+
+// type operator
+// it checks the data type of the variable
+
+console.log(typeof "godbless");
+console.log(typeof 23);
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof []);
+console.log(typeof {});
