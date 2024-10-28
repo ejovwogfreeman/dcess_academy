@@ -343,11 +343,289 @@ document.write("Hello world");
 // type operator
 // it checks the data type of the variable
 
-console.log(typeof "godbless");
-console.log(typeof 23);
-console.log(typeof true);
-console.log(typeof false);
-console.log(typeof undefined);
-console.log(typeof null);
-console.log(typeof []);
-console.log(typeof {});
+// console.log(typeof "godbless");
+// console.log(typeof 23);
+// console.log(typeof true);
+// console.log(typeof false);
+// console.log(typeof undefined);
+// console.log(typeof null);
+// console.log(typeof []);
+// console.log(typeof {});
+
+// type conversion
+// let myVar = "25";
+
+// console.log(typeof myVar);
+
+// different ways to convert to number
+
+// Number()
+// parseInt()
+// parseFloat()
+// +
+
+// console.log(typeof Number(myVar));
+// console.log(typeof parseInt(myVar));
+// console.log(typeof parseFloat(myVar));
+// console.log(typeof +myVar);
+
+// let myVar = 23;
+
+// console.log(typeof myVar);
+
+// console.log(typeof String(myVar));
+// console.log(typeof toString(myVar));
+
+// let isMarried = true;
+
+// console.log(typeof isMarried);
+
+// console.log(typeof String(isMarried));
+// console.log(typeof toString(isMarried));
+
+// let myArr = ["1", "2", "3"];
+
+// console.log(myArr);
+// console.log(myArr.toString());
+
+// let userInput = prompt("enter any number");
+// let userInputArr = userInput.split("");
+// let sum = 0;
+// for (let i = 0; i <= userInputArr.length; i++) {
+//   console.log(sum+=userInputArr);
+// }
+// console.log(userInputArr);
+// alert(userInput);
+
+// let color = "red";
+// color = "pink";
+
+// if (color === "red") {
+//   console.log("your color is red");
+// } else if (color === "blue") {
+//   console.log("your is color is blue");
+// } else if (color === "green") {
+//   console.log("your color is green");
+// } else {
+//   console.log("not a match");
+// }
+
+// ternary operator: a shorhand way of writing if/else statements
+
+// let x = 38;
+
+// if (x > 3) {
+//   console.log("x is greater than 3");
+// } else {
+//   console.log("x is not greater than 3");
+// }
+
+// console.log(x > 3 ? "x is greater than 3" : "x is not greater than 3");
+
+// switch statement
+
+// let color = "pink";
+
+// switch (color) {
+//   case "red":
+//     console.log("your color is red");
+//     break;
+//   case "blue":
+//     console.log("your color is blue");
+//     break;
+//   case "green":
+//     console.log("your color is green");
+//     break;
+//   default:
+//     console.log("not a match");
+//     break;
+// }
+
+// js loops
+// 1) for loop
+// 2) while loop
+// 3) do while loop
+
+// for loops
+// syntax
+// for(condition){
+//   codeblock;
+// }
+// or
+// for(initializer; boundary; increment){
+//   codeblock;
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// break and continue in loops
+
+// break: jumps out of a loop
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 7) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// continue: jumps and continue the loop
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 7) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+// for (let i = 0; i <= 100; i += 2) {
+//   console.log(i);
+// }
+
+// even
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// odd numbers
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// while loop
+// syntax
+// while(condition){
+//   codeblock;
+//   increment;
+// }
+// let i = 1;
+// while (i < 20) {
+//   console.log(i);
+//   i++;
+// }
+
+// do while loops
+// syntax
+// do {
+//   codelock;
+// } while (condition);
+
+// let i = 29;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 20);
+
+let names = ["godbless", "freeman", "lancelot"];
+
+// // for (let i = 0; i < names.length; i++) {
+// //   console.log(names[i]);
+// // }
+// let i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
+
+// for in, for of, foreach, map
+
+// for (let i in names) {
+//   console.log(names[i]);
+// }
+
+// let person = {
+//   firstname: "godbless",
+//   lastname: "freeman",
+//   isAdmin: true,
+// };
+
+// // for in iterates over an object
+// for (let i in person) {
+//   console.log(i);
+// }
+
+// // for of iterate of ver strings
+// let str = "abcdef";
+
+// for (let i of str) {
+//   console.log(i);
+// }
+
+// names.forEach((name) => {
+//   console.log(name);
+// });
+
+// names.forEach((name, i) => {
+//   console.log(i + 1 + " - " + name);
+// });
+
+// names.map((name) => {
+//   console.log(name);
+// });
+
+// names.map((name, i) => {
+//   console.log(i + 1 + " - " + name);
+// });
+
+// functions
+// syntax
+// function functionName(){
+//     codeblock
+// }
+// or
+// function functionName(param){
+//     codeblock
+// }
+
+// function greet() {
+//   return "Hello world";
+// }
+
+// console.log(greet());
+
+// NB: return keyword in functions
+// do do main things
+// 1) it stores the returned value in memory of the function
+// 2) it stops or blocks the code from running
+
+// create a function that takes a name and greet hello the name;
+
+// function greet(name) {
+//   return "Hello " + name;
+// }
+
+// console.log(greet("paschal"));
+
+// alert("please enter your name");
+// let username = prompt("Enter your username");
+// alert("Hello " + username);
+
+// function greet(name) {
+//   return "Hello " + name;
+// }
+// console.log(greet("freeman"));
+
+// function greet(name, time) {
+//   return "Hello " + name + ", good " + time;
+// }
+// console.log(greet("freeman", "morning"));
+// console.log(greet("paschal", "afternoon"));
+
+// function to calc area of cirlce
+
+// function calcArea(radius) {
+//   let pi = 3.142;
+//   let area = pi * radius ** 2;
+//   return "The area of a circle with radius of " + radius + " is " + area;
+// }
+
+// console.log(calcArea(7));
+
+// // assignemt
+// 1) write a function that converts naria to dollar (usin 1 dollar to 1600 naira)
+// 2) write a function that converts temperature in kelvin to celcius
+// 3) write a function that uses the almighty formula to solve quadratic equation
